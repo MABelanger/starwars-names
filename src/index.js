@@ -1,4 +1,4 @@
-/*
+  /*
 	npm install --save unique-random-array
 */
 var uniqueRandomArray = require('unique-random-array');
