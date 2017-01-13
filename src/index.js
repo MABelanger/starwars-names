@@ -24,7 +24,3 @@ function random(number) {
 		return randomItems;
 	}
 }
-
-function bibi(){
-	console.log('hello');
-}
