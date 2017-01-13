@@ -11,7 +11,7 @@ var getRandomItem = uniqueRandomArray(starWarsNames);
 module.exports = {
 	all: starWarsNames,
 	random: random
-}
+};
 
 function random(number) {
 	if (number === undefined) {
@@ -23,4 +23,8 @@ function random(number) {
 		}
 		return randomItems;
 	}
+}
+
+function bibi(){
+	console.log('hello');
 }
