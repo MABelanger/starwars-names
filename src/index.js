@@ -1,10 +1,11 @@
-  /*
+"use strict";
+/*
 	npm install --save unique-random-array
 */
-var uniqueRandomArray = require('unique-random-array');
-var starWarsNames = require('./starwars-names.json');
-var getRandomItem = uniqueRandomArray(starWarsNames);
+import uniqueRandomArray from 'unique-random-array';
+import starWarsNames from './starwars-names.json';
 
+var getRandomItem = uniqueRandomArray(starWarsNames);
 
 
 // Expose the public API
